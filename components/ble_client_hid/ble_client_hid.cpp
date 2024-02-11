@@ -27,7 +27,7 @@ void BLEClientHID::loop() {
 }
 
 void BLEClientHID::dump_config() {
-  ESP_LOGCONFIG(TAG, "BLE Client HID:");
+  ESP_LOGCONFIG(TAG, "BLE Client HID by jkd:");
   ESP_LOGCONFIG(TAG, "  MAC address        : %s",
                 this->parent()->address_str().c_str());
 }
