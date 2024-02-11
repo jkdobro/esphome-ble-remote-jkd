@@ -1,4 +1,7 @@
 # ESPHome external component to read hid events from a ble client
+
+#### Clone from: https://github.com/fsievers22/esphome-ble-remote
+
 The `ble_client_hid` external component foor ESPHome can be used to capture hid events like key presses from a hid device connected via Bluetooth LE.
 **Boards without internal PSRAM seem to be not compatible**
 #### Tested working with:
