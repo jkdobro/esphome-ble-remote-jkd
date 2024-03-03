@@ -197,7 +197,7 @@ void BLEClientHID::send_input_report_event(esp_ble_gattc_cb_param_t *p_data){
     } else {
       usage = std::to_string(value.usage.page) + "_" + std::to_string(value.usage.usage);
     }
-    this->fire_homeassistant_event("esphome.hid_events", {{"usage", usage}, {"value", std::to_string(value.value)}});
+//    this->fire_homeassistant_event("esphome.hid_events", {{"usage", usage}, {"value", std::to_string(value.value)}});  // jkd
     if(this->last_event_usage_text_sensor != nullptr){
       this->last_event_usage_text_sensor->publish_state(usage);
     }
