@@ -2,6 +2,7 @@
 #include "esphome/components/ble_client/ble_client.h"
 #include "esphome/components/esp32_ble_tracker/esp32_ble_tracker.h"
 #include "esphome/components/sensor/sensor.h"
+#include "esphome/components/text_sensor/text_sensor.h"  // jkd
 //#include "esphome/components/api/custom_api_device.h"
 #include <map>  // jkd
 #include "hid_parser.h"
