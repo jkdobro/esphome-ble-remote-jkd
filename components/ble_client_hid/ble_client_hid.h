@@ -2,9 +2,16 @@
 #include "esphome/components/ble_client/ble_client.h"
 #include "esphome/components/esp32_ble_tracker/esp32_ble_tracker.h"
 #include "esphome/components/sensor/sensor.h"
+
+#ifdef USE_MQTT  // jkd
 #include "esphome/components/text_sensor/text_sensor.h"  // jkd
-//#include "esphome/components/api/custom_api_device.h"
 #include <map>  // jkd
+#endif
+
+#ifdef USE_API  // jkd
+#include "esphome/components/api/custom_api_device.h"
+#endif
+
 #include "hid_parser.h"
 
 #ifdef USE_ESP32
