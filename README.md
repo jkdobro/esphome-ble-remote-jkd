@@ -7,6 +7,7 @@ The `ble_client_hid` external component foor ESPHome can be used to capture hid 
 #### Tested working with:
 - FireTV Remote of [Fire TV Stick - 3rd Gen (2020)](https://developer.amazon.com/docs/fire-tv/device-specifications-fire-tv-streaming-media-player.html?v=ftvstickgen3)
 - Nvidia Shield-Fernbedienung (2019) 
+- Xiaomi-RC (remote controll) by JKD 
 
 ## How to Use
 ### Add as external component:
